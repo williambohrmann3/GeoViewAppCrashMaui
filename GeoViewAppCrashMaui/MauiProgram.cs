@@ -35,7 +35,6 @@ namespace GeoViewAppCrashMaui
                 })
                 .UseArcGISRuntime(config => config
                 // .UseLicense("[Your ArcGIS Maps SDK License key]")
-                   .UseApiKey("AAPKf1c72955944443a8b67270cc31cc71cf4u6aK12dIoGgVtMHbhiB0y0fwlHoYzD4DiMKAjTZu2ekO3ry23fOB0wwy-PYK4wz")
                    .ConfigureAuthentication(auth => auth
                        .UseDefaultChallengeHandler() // Use the default authentication dialog
                                                      // .UseOAuthAuthorizeHandler(myOauthAuthorizationHandler) // Configure a custom OAuth dialog
