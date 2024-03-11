@@ -8,7 +8,7 @@
         }
         private void SceneViewButton_Clicked(object sender, EventArgs e)
         {
-            _ = Shell.Current.Navigation.PushAsync(new ScenePage());
+            _ = Shell.Current.Navigation.PushAsync(new GenericPage());
         }
     }
 
