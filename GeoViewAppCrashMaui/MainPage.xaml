@@ -4,6 +4,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013">
     
-    <Button Clicked="SceneViewButton_Clicked" Text="SceneView" />
+    <Button Clicked="SceneViewButton_Clicked" Text="Generic page w/ border" />
 
 </ContentPage>
